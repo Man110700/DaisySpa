@@ -1,0 +1,116 @@
+.services-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-top: 2rem;
+}
+
+.services-content-child {
+  width: 30%;
+  height: 35rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
+  position: relative;
+  border: 1px solid rgba(127, 146, 72, 0.46);
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.service-content {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.product-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.4s ease;
+}
+
+.service-content:hover article {
+  bottom: -8%;
+}
+
+.service-content article {
+  height: 35%;
+  color: white;
+  background-color: rgba(127, 146, 72, 0.46);
+  position: absolute;
+  bottom: -26%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  box-sizing: border-box;
+  transition: bottom 0.4s ease;
+}
+
+.service-content h2 {
+  font-size: 1.7rem;
+  text-align: center;
+}
+
+.service-content h2,
+.service-duration {
+  font-weight: bold;
+}
+
+.service-content h2,
+.service-description {
+  margin: 0.1rem 2rem;
+}
+
+.service-duration {
+  font-size: 1.2rem;
+  text-align: right;
+  margin-right: 2rem;
+}
+
+/*service button*/
+
+.service-button {
+  margin: 2rem 0rem;
+  width: 95%;
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fbffef;
+  border-radius: 30px;
+  border: solid 1px #fbffef;
+  transition: all 0.3s ease-in-out;
+}
+
+.service-button:hover {
+  border: solid 1px rgba(127, 146, 72, 1);
+  cursor: pointer;
+}
+
+.service-button h2 {
+  display: block;
+  width: 75%;
+  border-radius: 30px;
+  margin-left: 1rem;
+}
+
+.service-button button {
+  border: none;
+  position: relative;
+  right: -2%;
+  height: 3rem;
+  width: 25%;
+  border-radius: 30px;
+  background-color: rgba(127, 146, 72, 1);
+  color: #fbffef;
+  transition: all 0.4 ease-in-out;
+}
+
+.service-button button:hover {
+  cursor: pointer;
+}

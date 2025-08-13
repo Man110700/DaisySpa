@@ -1,0 +1,85 @@
+.form-container {
+  max-width: 900px;
+  margin: 50px auto;
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  animation: fadeIn 0.5s ease-in-out;
+  font-size: 1.5rem;
+}
+
+.step h2 {
+  color: #7f9248;
+  margin-bottom: 1rem;
+}
+
+select,
+input[type="number"],
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-top: 8px;
+  margin-bottom: 15px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.btn-group {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.btn-next,
+.btn-prev,
+.btn-submit {
+  padding: 10px 20px;
+  border: none;
+  background-color: #7f9248;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn-next:hover,
+.btn-prev:hover,
+.btn-submit:hover {
+  background-color: #6b7e3b;
+}
+
+.time-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+}
+
+.time-slot {
+  background: #e4e9da;
+  padding: 10px;
+  text-align: center;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.time-slot:hover {
+  background: #d0d9c3;
+}
+
+.time-slot.active {
+  background: #7f9248;
+  color: white;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(15px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

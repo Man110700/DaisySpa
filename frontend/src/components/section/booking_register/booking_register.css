@@ -1,0 +1,92 @@
+.booking-register {
+  width: 80%;
+  height: 12rem;
+  margin: 2rem 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  border: none;
+  background-color: #fbffef;
+}
+
+.booking-register-child {
+  border: 1px solid #7f9248;
+  border-radius: 20px;
+  height: 70%;
+}
+
+.date-show {
+  width: 15%;
+  margin-right: 20px;
+  color: #7f9248;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.date {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 0rem;
+}
+
+.date p {
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2rem;
+  margin: 0.5rem 0rem;
+}
+
+.date hr {
+  width: 100%;
+  color: #7f9248;
+  border: 1px solid #7f9248;
+}
+
+.booking-number {
+  width: 70%;
+  background-color: #7f9248;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.booking-number form {
+  height: 45%;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.booking-number form input {
+  height: 3rem;
+  width: 100%;
+  padding-left: 30px;
+  border-radius: 30px;
+  border: none;
+  background-color: #fbffef;
+}
+
+.booking-number form button {
+  border: none;
+  position: absolute;
+  left: 68.6%;
+  height: 2.5rem;
+  width: 10%;
+  border-radius: 30px;
+  background-color: rgba(127, 146, 72, 0.46)rgba(127, 146, 72, 0.46);
+  color: #fbffef;
+  transition: all 0.4 ease-in-out;
+}
+
+.booking-number form button:hover {
+  border: #7f9248;
+  background-color: #7f9248;
+  cursor: pointer;
+}

@@ -1,0 +1,35 @@
+.services {
+  width: 90%;
+  padding-bottom: 2rem;
+}
+
+.services nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 2px 5px 5px rgb(0, 0, 0, 0.5);
+}
+
+.services nav ul {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+  background-color: #fbffef;
+  color: #7f9248;
+  padding: 1rem 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.services nav ul li {
+  font-size: 0.8rem;
+  margin-left: 15rem;
+}
+
+.services nav ul li:nth-child(1) {
+  margin-left: 0;
+  margin-right: auto;
+  font-weight: bold;
+  font-size: 1.3rem;
+}

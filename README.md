@@ -1,3 +1,0 @@
-git add .
-git commit -m "Cập nhật mới"
-git push

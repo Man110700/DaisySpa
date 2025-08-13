@@ -1,0 +1,73 @@
+/*article*/
+article {
+  width: 100%;
+  margin-bottom: 2rem;
+  padding: 1rem 10%;
+}
+
+.main-article2 {
+  width: 100%;
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(243, 195, 38, 0.2);
+  padding-bottom: 1rem;
+}
+
+article h1,
+.child-procedure2 h2 {
+  color: rgb(243, 195, 38);
+  font-size: 2rem;
+}
+
+.introduce2 {
+  background-color: white;
+}
+
+.introduce2 p,
+.procedure2 p,
+.child-procedure2 li {
+  margin-top: 1rem;
+  margin-left: 2rem;
+  color: #878383;
+  font-size: 1.5rem;
+}
+
+.procedure2 h2 {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.child-procedure2 {
+  margin-top: 1rem;
+}
+
+.child-procedure2::marker {
+  color: rgb(243, 195, 38);
+}
+
+.child-procedure2 ul {
+  list-style: decimal;
+}
+
+/*Slogan*/
+.slogan2 {
+  height: 8rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  color: orange;
+  font-size: 2rem;
+}
+
+.decor2 {
+  display: block;
+  height: 100%;
+  width: 1.5rem;
+  background-color: orange;
+  margin-right: 1rem;
+}

@@ -1,0 +1,60 @@
+/*article*/
+article {
+  width: 100%;
+  margin-bottom: 2rem;
+  padding: 1rem 10%;
+}
+
+.main-article1 {
+  width: 100%;
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(80, 184, 220, 0.2);
+  padding: 1rem 0;
+}
+
+.introduce1 h1,
+.procedure1 h1 {
+  color: rgb(80, 184, 220);
+  font-size: 2rem;
+}
+
+.introduce1 p,
+.procedure1 ul {
+  margin-top: 1rem;
+  margin-left: 2rem;
+  color: #878383;
+  font-size: 1.5rem;
+}
+
+.procedure1 ul {
+  list-style: decimal;
+}
+
+.procedure1 li {
+  margin-bottom: 1rem;
+}
+
+.procedure1 h2 {
+  text-decoration: none;
+  font-weight: 100;
+  font-size: 1.5rem;
+  margin-bottom: 0.7rem;
+  font-weight: bold;
+}
+
+/*article-banner*/
+.article-banner1 {
+  height: 10rem;
+  width: 100%;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 4rem;
+  background-color: rgb(80, 184, 220, 0.4);
+  color: rgb(80, 184, 220);
+}

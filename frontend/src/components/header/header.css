@@ -1,0 +1,41 @@
+.banner {
+  max-width: 100%;
+  height: auto;
+}
+
+header nav {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header nav ul {
+  padding: 10px 10px;
+  width: 100%;
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+}
+
+header nav li {
+  display: block;
+  border-radius: 20px;
+  border: 1px solid transparent;
+  padding: 5px 20px;
+  transition: all ease-in-out 0.3s;
+  margin-left: 0.5rem;
+}
+
+header nav li:hover {
+  border-radius: 20px;
+  border: 1px solid grey;
+}
+
+header nav a {
+  text-decoration: none;
+  color: #878383;
+  font-size: 12px;
+  text-shadow: black 0px 5px 5px 0px;
+}
