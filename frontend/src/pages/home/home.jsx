@@ -7,14 +7,12 @@ import Service1 from "../service1/service1.jsx";
 import Service2 from "../service2/service2.jsx";
 import Service3 from "../service3/service3.jsx";
 import Footer from "../../components/footer/footer.jsx";
-import Services_content_benefit from "../../components/section/services/services_content/services_cotent_benefit.jsx";
 
 export default function Home() {
   return (
     <>
       <Header />
       <main>
-        <Services_content_benefit />
         <Booking_register />
         <Services />
       </main>
