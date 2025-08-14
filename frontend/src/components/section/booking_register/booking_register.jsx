@@ -1,4 +1,4 @@
-import "./Booking_register.css";
+import "./booking_register.css";
 
 export default function Booking_register() {
   return (
