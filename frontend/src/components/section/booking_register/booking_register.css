@@ -29,10 +29,11 @@
   display: flex;
   flex-direction: column;
   padding: 1rem 0rem;
+  width: 50%;
 }
 
 .date p {
-  font-size: 1.5rem;
+  font-size: 2rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -90,4 +91,8 @@
   border: #7f9248;
   background-color: #7f9248;
   cursor: pointer;
+}
+
+#year {
+  font-size: 1.5rem;
 }

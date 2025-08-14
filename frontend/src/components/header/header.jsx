@@ -1,5 +1,6 @@
 import "./header.css";
 import banner_1 from "../../assets/banner/banner_1.png";
+import { Link } from "react-router-dom";
 
 export default function Header() {
   return (
@@ -7,20 +8,20 @@ export default function Header() {
       <nav>
         <ul>
           <li>
-            <a href="">TRANG CHỦ</a>
+            <Link to="/">TRANG CHỦ</Link>
           </li>
           <li>
-            <a href="">ĐẶT LỊCH</a>
+            <Link to="/booking">ĐẶT LỊCH</Link>
           </li>
           <li>
-            <a href="">DỊCH VỤ</a>
+            <Link to="/service">DỊCH VỤ</Link>
           </li>
           <li>
-            <a href="">VỀ CHÚNG TÔI</a>
+            <Link to="/about">VỀ CHÚNG TÔI</Link>
           </li>
         </ul>
       </nav>
-      <img class="banner" src={banner_1} alt="banner-1"></img>
+      <img className="banner" src={banner_1} alt="banner-1"></img>
     </header>
   );
 }

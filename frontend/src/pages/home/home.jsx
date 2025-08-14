@@ -11,16 +11,10 @@ import Footer from "../../components/footer/footer.jsx";
 export default function Home() {
   return (
     <>
-      <Header />
       <main>
         <Booking_register />
         <Services />
       </main>
-      <Booking />
-      <Service1 />
-      <Service2 />
-      <Service3 />
-      <Footer />
     </>
   );
 }
